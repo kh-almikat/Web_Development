@@ -1,0 +1,20 @@
+.image
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+
+
+}
+
+#box-image
+{
+    text-align: center; /* Center the image */
+}
+
+
+/*
+<div id="box-image">
+    <img class="image" src="image.jpg" alt="Image Description">
+</div>
+*/

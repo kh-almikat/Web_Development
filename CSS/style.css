@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+}
+
+h1 /* degian heading tag element */ 
+{
+  color: white;
+  text-align: center;
+}
+
+p /* degian pragraph tag element */
+{
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.container /* degian class name */
+{
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+#unique /* degian id name */
+{
+  color: red;
+  font-weight: bold;
+}
+ div h1 , p /* degian div r vitor h1 + p - same */
+{
+    color: green; 
+    font-family: Arial, sans-serif;
+}
+* /* degian sob element */
+{
+    margin: 0;
+    padding: 0;
+}

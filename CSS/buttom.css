@@ -1,0 +1,10 @@
+.buttom /* degian buttom class element */
+{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px; /* button er uporer dike 10px space, bam dike 20px space */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* mouse pointer ke hand icon */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* button er niche shadow effect */
+}

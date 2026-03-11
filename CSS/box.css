@@ -1,0 +1,46 @@
+#box /* degian box id element */
+{
+    /* border */
+    border-width: 3px; /* border er width */
+    border-style: solid; / * border er style */
+    border-color: black; /* border er color */
+    border-radius: 10px; /* border er kono ekta corner ke gol korar jonno */
+    
+    /* marging*/
+    margin-top: 20px; /* box er uporer dike space */
+    margin-bottom: 20px;
+    margin-left: auto; /* box er bam dike space */
+    margin-right: auto;
+
+    /* padding */
+    padding-top: 10px; /* box er uporer dike content er space */
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    /* content height and width */
+    height: 100px;
+    width: 200px;
+
+    /* background */
+    background-color: lightgray;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover; /* background image ke box er size e fit korar jonno */
+
+}
+
+#box h2 /* box er vitor h2 element */
+{
+    color: white;
+    text-align: center;
+    padding-top: 30px; /* h2 er uporer dike space */
+    font-size: larger;
+}
+
+
+#box:hover /* box er uporer mouse pointer gele */
+{
+    background-color: lightcoral; /* background color change hobe */
+    transform: scale(1.1); /* box ke 10% boro korbe */
+    transition: transform 0.3s ease; /* smooth transition effect */
+}
