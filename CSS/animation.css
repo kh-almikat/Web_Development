@@ -1,0 +1,12 @@
+@keyframes my amination{
+    from{background-color: red;
+    }
+    to{background-color: yellow;
+    }
+    
+}
+.animation{
+    animation-name: my amination;
+    animation-duration: 4s;
+    animation-timing-function: linear; 
+}

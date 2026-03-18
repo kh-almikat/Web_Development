@@ -1,0 +1,10 @@
+.botton:hover
+{
+    color: antiquewhite;
+    background-color: aquamarine;
+}
+
+.input:focus
+{
+    color: blueviolet;
+}

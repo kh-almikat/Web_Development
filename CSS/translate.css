@@ -1,0 +1,13 @@
+.translate{
+    transform: translate(100px 20px); /*translate(x,y)*/
+}
+
+.scale:hover{
+    transform: scale(1.2); /*size bostup*/
+    transition: 1s;
+}
+
+.roate{
+    transform: rotate(90deg); /*roate 90 gradus*/ 
+    transition: 1s;
+}
