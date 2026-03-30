@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-gray-950 flex justify-between items-center p-3">
+        <img class="w-10 h-10 bg-gray-950" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vg1F6D8S-eRQidsImQb6SxF3QGXLTj98Vg&s" alt="">
+
+        <div class="group relative">
+            <button  class="text-white text-[20px] font-semibold bg-blue-800 rounded-lg p-2 text-bold hover:bg-indigo-500 hover:text-cyan-50 active:bg-gray-200 active:text-blue-700 focus:bg-indigo-900 m-1.5 ">Menu
+                <span class="group-hover:rotate-180 transition-transform duration-300 inline-block">▼</span>
+            </button>
+
+            <ul class="bg-blue-200 p-2 rounded-md w-[200px] space-y-2.5 invisible top-full right-1.5  group-hover:visible absolute transition-opacity duration-300">
+                <li class="hover:bg-blue-300 p-2 rounded-md">Home</li>
+                <li class="hover:bg-blue-300 p-2 rounded-md">About Us</li>
+                <li class="hover:bg-blue-300 p-2 rounded-md">Services</li>
+                <li class="hover:bg-blue-300 p-2 rounded-md">Contact</li>
+            </ul>
+
+        </div>
+    </div>
+    
+</body>
+</html>
